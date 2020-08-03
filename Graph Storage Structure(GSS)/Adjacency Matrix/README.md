@@ -10,7 +10,7 @@
 
    
 
-   ![result1]()
+   ![result1](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/fixed_result.png)
 
    
 
@@ -22,4 +22,4 @@
 
    运行结果如下:
 
-![result2]()
+![result2](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/dynamic_result.png)
