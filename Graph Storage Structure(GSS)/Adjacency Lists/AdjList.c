@@ -62,6 +62,7 @@ Gpointer buildGraph() {
 
 	}
 
+	// 冲掉缓冲流
 	getchar();
 
 	/* 如果顶点存在数据，读入数据 */
@@ -110,7 +111,7 @@ void output(Gpointer graph) {
 	
 	Apointer adjVNode = NULL;
 
-	printf("序号  Data ---> 邻接点/权重\n");
+	printf("序号 Data ---> 邻接点/权重\n");
 
 	for (Vertex v = 0; v < graph->Nv; v++) {
 
