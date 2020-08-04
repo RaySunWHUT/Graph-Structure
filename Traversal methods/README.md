@@ -4,7 +4,7 @@
 
 #### 1. BFS(Breadth First Search)
 
-**BFS(Breadth Trist Search)** 类似于 **树(Tree)** 的 **层次遍历**.
+​	**BFS(Breadth Trist Search)** 类似于 **树(Tree)** 的 **层次遍历**.
 
 图结构:
 
@@ -12,23 +12,32 @@
 
 
 
-**BFS** 结果:
+**邻接表(Adjacency List) BFS** 结果:
 
-![dfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/BFS.png)
+![list_bfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/BFS_List.png)
+
+
+
+**邻接矩阵(Adjacency Matrix) BFS** 结果:
+
+![matrix_bfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/BFS_Matrix.png)
 
 
 
 #### 2. DFS(Deep First Search)
 
-**DFS(Deep First Search)** 类似于 **树(Tree)** 的 **先序遍历**，使用 **递归** 进行DFS.
+​	**DFS(Deep First Search)** 类似于 **树(Tree)** 的 **先序遍历**，使用 **递归** 进行DFS.
 
 图结构:
 
 ![graph](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/DFS_Fig.jpg)
 
+**邻接表(Adjacency List) DFS** 结果:
+
+![list_dfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/DFS_List.png)
 
 
-**DFS** 结果:
 
-![dfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/DFS.png)
+**邻接矩阵(Adjacency Matrix) DFS** 结果:
 
+![matrix_dfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/DFS_Matrix.png)
