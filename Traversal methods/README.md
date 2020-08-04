@@ -10,10 +10,10 @@
 
 图结构:
 
-![graph]()
+![graph](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/DFS_Fig.jpg)
 
 
 
 DFS结果:
 
-![dfs]()
+![dfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/DFS.jpg)
