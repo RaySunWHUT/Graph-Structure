@@ -20,7 +20,7 @@
 
 **邻接矩阵(Adjacency Matrix) BFS** 结果:
 
-![matrix_bfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/BFS_Matrix.png)
+![matrix_bfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/BFS_Matrix.jpg)
 
 
 
