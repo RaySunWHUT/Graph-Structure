@@ -16,4 +16,4 @@
 
 DFS结果:
 
-![dfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/DFS.jpg)
+![dfs](https://github.com/RaySunWHUT/Graph-Structure/blob/master/assets/DFS.png)
