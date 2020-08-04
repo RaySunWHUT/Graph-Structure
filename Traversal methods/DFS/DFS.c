@@ -7,13 +7,13 @@
 #pragma warning(disable:4996)
 
 
-// È«¾Ö±äÁ¿: ·ÃÎÊ±êÖ¾Êý×é
-Bool visited[MaxVertexNum] = { False };	// ×¢: ²»ÄÜÔÚ.hÎÄ¼þÖÐÉùÃ÷²¢³õÊ¼»¯È«¾Ö±äÁ¿, ·ñÔò±¨´í£¡
+// å…¨å±€å˜é‡: è®¿é—®æ ‡å¿—æ•°ç»„
+Bool visited[MaxVertexNum] = { False };	// æ³¨: ä¸èƒ½åœ¨.hæ–‡ä»¶ä¸­å£°æ˜Žå¹¶åˆå§‹åŒ–å…¨å±€å˜é‡, å¦åˆ™æŠ¥é”™ï¼
 
 
 void visit(Vertex v) {
 
-	printf("ÕýÔÚ·ÃÎÊ¶¥µã%d\n", v);
+	printf("æ­£åœ¨è®¿é—®é¡¶ç‚¹%d\n", v);
 
 }
 
@@ -22,15 +22,15 @@ void DFS(Gpointer graph, Vertex randomVertex, void(*visit)(Vertex)) {
 
 	Apointer w;
 
-	// ·ÃÎÊËæ»úµÄµÚ v ¸ö½áµã
+	// è®¿é—®éšæœºçš„ç¬¬ v ä¸ªç»“ç‚¹
 	visit(randomVertex);
 
-	// ±êÖ¾ÒÑ·ÃÎÊ
+	// æ ‡å¿—å·²è®¿é—®
 	visited[randomVertex] = True;
 
 	for (w = graph->G[randomVertex].FirstEdge; w != NULL; w = w->Next) {
 
-		if (!visited[w->AdjV]) {	// ÁÚ½ÓµãÎ´±»·ÃÎÊ
+		if (!visited[w->AdjV]) {	// é‚»æŽ¥ç‚¹æœªè¢«è®¿é—®
 
 			DFS(graph, w->AdjV, visit);
 
